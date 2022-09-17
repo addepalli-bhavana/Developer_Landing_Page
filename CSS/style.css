@@ -1,3 +1,4 @@
+/* poppins-and-Righteous-font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 * {
@@ -6,9 +7,11 @@
   outline: 0px;
   list-style-type: none;
 }
+/* font-family */
 body {
   font-family: "Poppins", sans-serif;
 }
+/* header-section */
 header {
   background-color: #491cfe;
   padding: 0px 100px;
@@ -60,6 +63,7 @@ nav {
 p {
   padding-top: 10px;
 }
+/* companies-section */
 .companies a {
   text-decoration: none;
   font-size: 25px;
@@ -72,6 +76,7 @@ p {
   padding: 20px 100px;
   background-color: #f5f5f5;
 }
+/* api-section */
 .api {
   padding: 100px;
   background-color: #f5f5f5;
@@ -111,6 +116,7 @@ p {
 .api h1 {
   font-size: 40px;
 }
+/* blog-section */
 .blog-heading {
   display: flex;
   justify-content: space-between;
@@ -177,6 +183,7 @@ p {
 .blog-content p {
   padding-top: 10px;
 }
+/* faq-section */
 .faq-section {
   display: flex;
   padding: 40px 100px;
@@ -216,6 +223,7 @@ p {
 .faq-content button {
   margin-top: 10px;
 }
+/* download-section */
 .download-section {
   display: flex;
   padding: 100px;
@@ -258,6 +266,7 @@ form button {
   top: 5px;
   right: 5px;
 }
+/* footer-section */
 .footer-section {
   display: flex;
   padding: 70px 100px;
@@ -297,6 +306,7 @@ form button {
   border-right: 2px solid #FFFFFF;
   padding-right: 20px;
 }
+/* hover-effect */
 nav a:hover {
   font-weight: bold;
   cursor: pointer;
